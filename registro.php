@@ -32,7 +32,7 @@ if ($r) {
        echo "<script> window.location='postlogin/estudiante.php'; </script>";
      }
 } else {
-    // header("Location:registro.php?nosepuedo");
+   header("Location:registro.php?nosepuedo");
 }
 
 
